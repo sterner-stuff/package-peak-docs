@@ -1,0 +1,17 @@
+{
+  "name": "package-peak-docs",
+  "version": "1.0.0",
+  "description": "Docs for Package Peak",
+  "main": "index.js",
+  "repository": "git@github.com:sterner-stuff/package-peak-docs.git",
+  "author": "Ethan Clevenger <ethan.c.clevenger@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.36"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
