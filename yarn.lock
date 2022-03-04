@@ -297,6 +297,15 @@
     "@vuepress/core" "2.0.0-beta.36"
     execa "^5.1.1"
 
+"@vuepress/plugin-google-analytics@^2.0.0-beta.36":
+  version "2.0.0-beta.36"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-2.0.0-beta.36.tgz#5241c22e8c99c9aa027d957802b9b5ad41f45fcc"
+  integrity sha512-X2gkwtPXOUZXE2kVS+nqzh7GpX7M/2kvBJEmD9VA8u94xkIJVKujGhNEjC0YqZi7oL7UL1tA69KvIzEe+fx6RA==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.35"
+    "@vuepress/core" "2.0.0-beta.36"
+    "@vuepress/utils" "2.0.0-beta.35"
+
 "@vuepress/plugin-medium-zoom@2.0.0-beta.36":
   version "2.0.0-beta.36"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.36.tgz#534760a5c794d9b60768b6d5ae5bcf190aad8889"
@@ -329,13 +338,26 @@
     "@vuepress/utils" "2.0.0-beta.35"
     chokidar "^3.5.3"
 
-"@vuepress/plugin-prismjs@2.0.0-beta.36":
+"@vuepress/plugin-prismjs@2.0.0-beta.36", "@vuepress/plugin-prismjs@^2.0.0-beta.36":
   version "2.0.0-beta.36"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-prismjs/-/plugin-prismjs-2.0.0-beta.36.tgz#6344880364ba828919569519cb7312792546f8c9"
   integrity sha512-xQ+Qa8ODt3K5blEZa2THTmXFO5/RrBjAgkk0u1JmPdVB8FoQAjdSaxZIs9vTBwCMCIexd6c3cC+MaPT2OVrgdA==
   dependencies:
     "@vuepress/core" "2.0.0-beta.36"
     prismjs "^1.26.0"
+
+"@vuepress/plugin-search@^2.0.0-beta.36":
+  version "2.0.0-beta.36"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.36.tgz#4b8219514ae704919cc31d227d571dc06eefa9fd"
+  integrity sha512-UMtWH5h9wXiZgram2w5m/4Ni5R/8w+G/r22pBdBuqB1KMOUO473EmgOWgxqAsT3DLvOgevfmxQvp/OcEQv9Esw==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.35"
+    "@vuepress/core" "2.0.0-beta.36"
+    "@vuepress/shared" "2.0.0-beta.35"
+    "@vuepress/utils" "2.0.0-beta.35"
+    chokidar "^3.5.3"
+    vue "^3.2.28"
+    vue-router "^4.0.12"
 
 "@vuepress/plugin-theme-data@2.0.0-beta.36":
   version "2.0.0-beta.36"
