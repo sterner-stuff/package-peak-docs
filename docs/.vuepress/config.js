@@ -3,8 +3,8 @@ module.exports = {
 	lang: "en-US",
 	title: "Package Peak",
 	description:
-	"Documentation for Package Peak, a package manager for Envato.",
-	base: '/package-peak-docs/',
+		"Documentation for Package Peak, a package manager for ThemeForest and CodeCanyon.",
+	base: "/package-peak-docs/",
 
 	// theme and its config
 	theme: "@vuepress/theme-default",
@@ -12,16 +12,22 @@ module.exports = {
 		logo: "https://vuejs.org/images/logo.png",
 		sidebar: [
 			{
-				text: 'Home',
-				link: '/'
+				text: "Home",
+				link: "/",
 			},
 			{
-				text: 'Getting Started',
-				link: '/getting-started.html'
+				text: "Getting Started",
+				link: "/getting-started.html",
 			},
 			{
-				text: 'Troubleshooting',
-				link: '/troubleshooting.html'
+				text: "Troubleshooting",
+				link: "/troubleshooting.html",
+			},
+		],
+		navbar: [
+			{
+				text: 'Back to Package Peak',
+				link: 'https://packagepeak.app'
 			}
 		]
 	},
@@ -29,7 +35,7 @@ module.exports = {
 		[
 			"@vuepress/plugin-google-analytics",
 			{
-				id: "G-XXXXXXXXXX",
+				id: "G-X5F1808L49",
 			},
 		],
 		[
@@ -41,6 +47,6 @@ module.exports = {
 					},
 				},
 			},
-		]
+		],
 	],
 };

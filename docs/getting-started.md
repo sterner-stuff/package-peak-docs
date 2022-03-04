@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Getting Started
-description: Sign up for Package Peak and configure it.
+description: Sign up for Package Peak, connect to Envato, and sync your plugins and themes.
 ---
 
 # Getting Started

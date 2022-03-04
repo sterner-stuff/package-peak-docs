@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Package Page Docs
-description: Documentation for Package Peak, a package manager for Envato.
+description: Documentation for Package Peak, a package manager for ThemeForest and CodeCanyon.
 ---
 
 # Package Peak
