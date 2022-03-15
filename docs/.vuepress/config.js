@@ -4,8 +4,6 @@ module.exports = {
 	title: "Package Peak",
 	description:
 		"Documentation for Package Peak, a package manager for ThemeForest and CodeCanyon.",
-	base: "/package-peak-docs/",
-
 	// theme and its config
 	theme: "@vuepress/theme-default",
 	themeConfig: {
