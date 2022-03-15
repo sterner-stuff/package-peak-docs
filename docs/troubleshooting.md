@@ -45,5 +45,10 @@ For a quick fix, you can utilize Composer's `installer-paths` feature to manuall
 }
 ```
 
+## Composer says a theme or plugin is abandoned
+If, for some reason, the plugin or theme author changes the root plugin or theme directory name, that will update the package's Composer name to try and match the results of admin-based installation as closely as possible. It will also start reporting the old Composer name as abandoned.
+
+An alias is automatically created for the old Composer name, ensuring that running `composer install` won't fail without warning. But to continue receiving updated versions of the plugin or theme, you should update the dependency in your `composer.json` file. The new name should be reported in the abandonment notice in the Composer CLI.
+
 ## Support
 If you're having additional trouble with Package Peak, please [contact us](mailto:ethan@sternerstuff.dev).
